@@ -19,6 +19,7 @@
   showAnotherWayIfPresent=true
 >
   <#assign cardHeader>
+    <img src="${url.resourcesPath}/img/caas_ssa.png" alt="CAAS Skysoft logo" style="display: block; margin: 0px">
     <@logo.kw>
       ${kcSanitize(msg("loginTitleHtml", (realm.displayNameHtml!"")))?no_esc}
     </@logo.kw>
